@@ -49,7 +49,7 @@ namespace Tiny_Game_Project_1.Map
 
 
 
-        public string[,] runRandomWalkers(string[,] gameAreaToProcess, int mapWidth, int mapHeight)
+         public string[,] runRandomWalkers(string[,] gameAreaToProcess, int mapWidth, int mapHeight)
         {
             int largeWalkerLength = mapWidth; // number of steps in a big walker
             int smallWalkerLength = mapHeight / 7; // number of steps in a small walker

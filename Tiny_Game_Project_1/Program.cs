@@ -1,17 +1,55 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Tiny_Game_Project_1.Map;
-
-Console.WriteLine("Hello, World!");
-
+using Tiny_Game_Project_1.Player;
 
 
-// params for the mapMaker should always be equal. 
+class program
+{
+    static void Main()
+    {
+        int mapSize = 50;
+        Console.Clear();
+        MapMaker mapMaker = new MapMaker();
+        string[,] createdMap = mapMaker.buildMap(mapSize, mapSize);
+        string[,] readyMap = PlayerPlacement.placePlayerOnMap(createdMap);
+        
+        bool running = true;
+        DrawMap.Draw(readyMap);
 
-int mapSize = 50;
+        while (running)
+        {
+            string[,] updatedMap = PlayerInput.handleInput(readyMap);
 
-MapMaker mapMaker = new MapMaker();
 
-string[,] mapOne = mapMaker.buildMap(mapSize, mapSize);
+            DrawMap.Draw(updatedMap);
+        }
 
-DrawMap.Draw(mapOne);
+    }
+
+}
+//To Do:
+//create logic for player
+//create logic and simple ai for enemy - the 'z'
+//player to spawn in top start zone
+//create start and end zones - slight randomisation of this create 4x4 area in white? 
+//stretch:- 
+// - add music
+// - add lives
+// - would you like to try again Y/N. 
+
+
+
+
+
+
+
+
+
+//place player in map - ensure this isn't on something that is blocked 
+
+//start zone & spawn player 
+
+//start zone & spawn baddy
+
+
 

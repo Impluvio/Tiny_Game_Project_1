@@ -11,7 +11,7 @@ namespace Tiny_Game_Project_1.Map
 
         public static void Draw(string[,] gameMap)
         {
-            Console.Clear();
+            Console.SetCursorPosition(0, 0);
 
             int mapY = gameMap.GetLength(0); 
             int mapX = gameMap.GetLength(1); 
