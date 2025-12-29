@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tiny_Game_Project_1.Map
 {
-    public class PlayerPlacement
+    public class EnemyPlayerPlacement
     {
         public static string[,] placePlayerOnMap(string[,] mapToProcess)
         {
@@ -14,11 +14,15 @@ namespace Tiny_Game_Project_1.Map
             int mapWidth = mapToProcess.GetLength(1);
 
             int backrow = mapHeight - 2; // obstacles cannot be planted here.
+            int frontRow = 1;
 
             Random randRange = new Random();
             int randomCoordX = randRange.Next(2, mapWidth - 3);
+            int secondRandomCoordX = randRange.Next(2, mapWidth - 3);
 
             mapToProcess[randomCoordX, backrow] = "u";
+            mapToProcess[randomCoordX, frontRow] = "z";
+            
 
             return mapToProcess;
 

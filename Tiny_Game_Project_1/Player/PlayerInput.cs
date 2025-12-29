@@ -23,17 +23,18 @@ namespace Tiny_Game_Project_1.Player
 
             switch (key)
             {
-                case ConsoleKey.W: newY++; break;   //these are in the wrong order so up/down is A and D and left right is W and S
-                case ConsoleKey.S: newY--; break;
-                case ConsoleKey.A: newX--; break;
-                case ConsoleKey.D: newX++; break;
+                case ConsoleKey.W: newX--; break;   //these are in the wrong order so up/down is A and D and left right is W and S
+                case ConsoleKey.S: newX++; break;
+                case ConsoleKey.A: newY--; break;
+                case ConsoleKey.D: newY++; break;
             }
 
-            if (mapToUpdate[newY, newX] != "X" || mapToUpdate[newY, newX] != "^" //this does not work if we go out of bounds, and it does not put the cursor back.
+            if (mapToUpdate[newY, newX] != "X" && mapToUpdate[newY, newX] != "^") //this does not work if we go out of bounds, and it does not put the cursor back.
             {
                 mapToUpdate[newY, newX] = "u";
                 mapToUpdate[currentY, currentX] = "o";
             }
+            
 
             return mapToUpdate;
         }
