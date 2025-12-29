@@ -1,0 +1,14 @@
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\bin\Debug\net8.0\Tiny_Game_Project_1.exe
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\bin\Debug\net8.0\Tiny_Game_Project_1.deps.json
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\bin\Debug\net8.0\Tiny_Game_Project_1.runtimeconfig.json
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\bin\Debug\net8.0\Tiny_Game_Project_1.dll
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\bin\Debug\net8.0\Tiny_Game_Project_1.pdb
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\net8.0\Tiny_Game_Project_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\net8.0\Tiny_Game_Project_1.AssemblyInfoInputs.cache
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\net8.0\Tiny_Game_Project_1.AssemblyInfo.cs
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\net8.0\Tiny_Game_Project_1.csproj.CoreCompileInputs.cache
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\net8.0\Tiny_Game_Project_1.dll
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\net8.0\refint\Tiny_Game_Project_1.dll
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\net8.0\Tiny_Game_Project_1.pdb
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\net8.0\Tiny_Game_Project_1.genruntimeconfig.cache
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\net8.0\ref\Tiny_Game_Project_1.dll
