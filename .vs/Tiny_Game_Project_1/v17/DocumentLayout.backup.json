@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|c:\\users\\adamc\\source\\repos\\tiny_game_project_1\\tiny_game_project_1\\map\\drawmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|solutionrelative:tiny_game_project_1\\map\\drawmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|c:\\users\\adamc\\source\\repos\\tiny_game_project_1\\tiny_game_project_1\\map\\mapmaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|solutionrelative:tiny_game_project_1\\map\\mapmaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,25 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DrawMap.cs",
+              "DocumentMoniker": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Map\\DrawMap.cs",
+              "RelativeDocumentMoniker": "Tiny_Game_Project_1\\Map\\DrawMap.cs",
+              "ToolTip": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Map\\DrawMap.cs",
+              "RelativeToolTip": "Tiny_Game_Project_1\\Map\\DrawMap.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T01:56:28.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MapMaker.cs",
               "DocumentMoniker": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Map\\MapMaker.cs",
               "RelativeDocumentMoniker": "Tiny_Game_Project_1\\Map\\MapMaker.cs",
               "ToolTip": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Map\\MapMaker.cs",
               "RelativeToolTip": "Tiny_Game_Project_1\\Map\\MapMaker.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB4AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowHsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T01:26:24.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Program.cs",
               "RelativeDocumentMoniker": "Tiny_Game_Project_1\\Program.cs",
               "ToolTip": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Program.cs",
               "RelativeToolTip": "Tiny_Game_Project_1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T01:24:41.4Z",
               "EditorCaption": ""

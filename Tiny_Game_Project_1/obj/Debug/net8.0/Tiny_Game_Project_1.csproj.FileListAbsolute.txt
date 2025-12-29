@@ -12,3 +12,4 @@ C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\ne
 C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\net8.0\Tiny_Game_Project_1.pdb
 C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\net8.0\Tiny_Game_Project_1.genruntimeconfig.cache
 C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\net8.0\ref\Tiny_Game_Project_1.dll
+C:\Users\adamc\source\repos\Tiny_Game_Project_1\Tiny_Game_Project_1\obj\Debug\net8.0\Tiny_Game_Project_1.sourcelink.json
