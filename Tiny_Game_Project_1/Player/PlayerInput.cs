@@ -29,10 +29,14 @@ namespace Tiny_Game_Project_1.Player
                 case ConsoleKey.D: newY++; break;
             }
 
-            if (mapToUpdate[newY, newX] != "X" && mapToUpdate[newY, newX] != "^") //this does not work if we go out of bounds, and it does not put the cursor back.
+            if(newY >= 1 && newY < mapToUpdate.GetLength(0) - 1 && newX >= 1  && newX < mapToUpdate.GetLength(1) - 1) //bounds check.
             {
-                mapToUpdate[newY, newX] = "u";
-                mapToUpdate[currentY, currentX] = "o";
+                if(mapToUpdate[newY, newX] != "X" && mapToUpdate[newY, newX] != "^")
+                {
+                    mapToUpdate[newY, newX] = "u";
+                    mapToUpdate[currentY, currentX] = "o";
+                }
+               
             }
             
 

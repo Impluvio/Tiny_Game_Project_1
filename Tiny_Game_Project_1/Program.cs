@@ -4,6 +4,7 @@ using Tiny_Game_Project_1.Enemy;
 using Tiny_Game_Project_1.Extras;
 using Tiny_Game_Project_1.Map;
 using Tiny_Game_Project_1.Player;
+using Tiny_Game_Project_1.GameLogic;
 
 
 class program
@@ -13,43 +14,41 @@ class program
         DisplayTitle.showTitle();
         Thread.Sleep(5000);
 
-
-        int mapSize = 50;
+        int mapSize = 20;
         Console.Clear();
         MapMaker mapMaker = new MapMaker();
         string[,] createdMap = mapMaker.buildMap(mapSize, mapSize);
         string[,] readyMap = EnemyPlayerPlacement.placePlayerOnMap(createdMap);
-        
-        bool running = true;
-        DrawMap.Draw(readyMap);
 
-        while (running)
-        {
+        GameLoop.initiateLoop(readyMap);
 
-            string[,] updatedMapPlayer = PlayerInput.handleInput(readyMap);
-            string[,] updatedMapPlayerEnemy = EnemyController.handleMovement(updatedMapPlayer);
-
-            DrawMap.Draw(updatedMapPlayerEnemy);
-
-            var player = EntityFinder.Find(updatedMapPlayerEnemy, "u");
-            var enemy = EntityFinder.Find(updatedMapPlayerEnemy, "z");
-
-            if (player == enemy)
-            {
-                Console.Beep(250, 400);
-                running = false;
-            }
-
-
-
-        }
-
-        Console.Clear();
+        //  Console.Clear();
         Console.WriteLine("you Got rekt!");
-        Console.ReadKey();
+
+        if (PlayerHealth.playerHealth.Length > 0)
+        {
+            Console.WriteLine("You have lives left... continue (y/n)?");
+            string input = Console.ReadLine();
+            if (input != null && input == "y")
+            {
+                GameLoop.initiateLoop(readyMap);
+                GameLoop.ToggleRunning();
+            }
+            else if (input != null && input == "n")
+            {
+                Console.WriteLine("game over");
+            }
+        }
+        else
+        {
+            Console.WriteLine("game over");
+        }
+            Console.ReadKey();
+
 
     }
 
+   
 }
 //To Do:
 //create logic for player
