@@ -29,10 +29,26 @@ class program
         {
             Console.WriteLine("You have lives left... continue (y/n)?");
             string input = Console.ReadLine();
-            if (input != null && input == "y")
+            
+            if (input != null && input == "y") // so at this point when the two players collide the game loop 
             {
-                GameLoop.initiateLoop(readyMap);
+                
                 GameLoop.ToggleRunning();
+                var player = EntityFinder.Find(readyMap, "u");
+                var enemy = EntityFinder.Find(readyMap, "z");
+                Console.WriteLine($"player is:{player} & enemy is:{enemy}");
+                if (player == (-1, -1) && enemy != (-1,-1))
+                {
+                    readyMap[enemy.x, enemy.y] = "o"; 
+                }
+                if (enemy == (-1, -1) && player != (-1, -1))
+                {
+                    readyMap[player.x, player.y] = "o"; 
+                }
+
+
+                var mapReset = EnemyPlayerPlacement.placePlayerOnMap(readyMap);
+                GameLoop.initiateLoop(mapReset);
             }
             else if (input != null && input == "n")
             {

@@ -22,9 +22,6 @@ namespace Tiny_Game_Project_1.GameLogic
         public static void initiateLoop(string[,] mapToDraw)
         {
 
-            
-
-            
             DrawMap.Draw(mapToDraw);
 
             while (running)
@@ -43,6 +40,7 @@ namespace Tiny_Game_Project_1.GameLogic
                     Console.Beep(250, 400);
                     running = false;
                     PlayerHealth.reportPlayerHealth(true);
+                
                 }
                 else if (enemy == (-1, -1) || player == (-1, -1))
                 {

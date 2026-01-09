@@ -20,7 +20,7 @@ namespace Tiny_Game_Project_1.Map
                 }
             }
 
-            return (-1, -1);
+            return (-1, -1); //off map, but doesn't exist 
 
         }
 

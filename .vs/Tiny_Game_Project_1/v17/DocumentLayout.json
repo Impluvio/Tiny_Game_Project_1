@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|c:\\users\\adamc\\source\\repos\\tiny_game_project_1\\tiny_game_project_1\\extras\\notes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|solutionrelative:tiny_game_project_1\\extras\\notes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|c:\\users\\adamc\\source\\repos\\tiny_game_project_1\\tiny_game_project_1\\map\\drawmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|solutionrelative:tiny_game_project_1\\map\\drawmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|c:\\users\\adamc\\source\\repos\\tiny_game_project_1\\tiny_game_project_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|solutionrelative:tiny_game_project_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|c:\\users\\adamc\\source\\repos\\tiny_game_project_1\\tiny_game_project_1\\map\\entityfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|solutionrelative:tiny_game_project_1\\map\\entityfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|c:\\users\\adamc\\source\\repos\\tiny_game_project_1\\tiny_game_project_1\\map\\enemyplayerplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|solutionrelative:tiny_game_project_1\\map\\enemyplayerplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|c:\\users\\adamc\\source\\repos\\tiny_game_project_1\\tiny_game_project_1\\gamelogic\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|solutionrelative:tiny_game_project_1\\gamelogic\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|c:\\users\\adamc\\source\\repos\\tiny_game_project_1\\tiny_game_project_1\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|solutionrelative:tiny_game_project_1\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|c:\\users\\adamc\\source\\repos\\tiny_game_project_1\\tiny_game_project_1\\map\\drawmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|solutionrelative:tiny_game_project_1\\map\\drawmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|c:\\users\\adamc\\source\\repos\\tiny_game_project_1\\tiny_game_project_1\\player\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3DE70C-2F6E-4BF8-88C0-6A36227E887D}|Tiny_Game_Project_1\\Tiny_Game_Project_1.csproj|solutionrelative:tiny_game_project_1\\player\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +38,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Notes.cs",
+              "DocumentMoniker": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Extras\\Notes.cs",
+              "RelativeDocumentMoniker": "Tiny_Game_Project_1\\Extras\\Notes.cs",
+              "ToolTip": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Extras\\Notes.cs",
+              "RelativeToolTip": "Tiny_Game_Project_1\\Extras\\Notes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T22:36:20.407Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DrawMap.cs",
+              "DocumentMoniker": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Map\\DrawMap.cs",
+              "RelativeDocumentMoniker": "Tiny_Game_Project_1\\Map\\DrawMap.cs",
+              "ToolTip": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Map\\DrawMap.cs",
+              "RelativeToolTip": "Tiny_Game_Project_1\\Map\\DrawMap.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T22:35:15.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerInput.cs",
+              "DocumentMoniker": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Player\\PlayerInput.cs",
+              "RelativeDocumentMoniker": "Tiny_Game_Project_1\\Player\\PlayerInput.cs",
+              "ToolTip": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Player\\PlayerInput.cs",
+              "RelativeToolTip": "Tiny_Game_Project_1\\Player\\PlayerInput.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T22:27:31.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EntityFinder.cs",
+              "DocumentMoniker": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Map\\EntityFinder.cs",
+              "RelativeDocumentMoniker": "Tiny_Game_Project_1\\Map\\EntityFinder.cs",
+              "ToolTip": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Map\\EntityFinder.cs",
+              "RelativeToolTip": "Tiny_Game_Project_1\\Map\\EntityFinder.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T21:55:37.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyPlayerPlacement.cs",
+              "DocumentMoniker": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Map\\EnemyPlayerPlacement.cs",
+              "RelativeDocumentMoniker": "Tiny_Game_Project_1\\Map\\EnemyPlayerPlacement.cs",
+              "ToolTip": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Map\\EnemyPlayerPlacement.cs",
+              "RelativeToolTip": "Tiny_Game_Project_1\\Map\\EnemyPlayerPlacement.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T21:43:58.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GameLoop.cs",
               "DocumentMoniker": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\GameLogic\\GameLoop.cs",
               "RelativeDocumentMoniker": "Tiny_Game_Project_1\\GameLogic\\GameLoop.cs",
               "ToolTip": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\GameLogic\\GameLoop.cs",
               "RelativeToolTip": "Tiny_Game_Project_1\\GameLogic\\GameLoop.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvyoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T16:51:20.394Z",
               "EditorCaption": ""
@@ -44,38 +129,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Player\\PlayerHealth.cs",
-              "RelativeDocumentMoniker": "Tiny_Game_Project_1\\Player\\PlayerHealth.cs",
-              "ToolTip": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Player\\PlayerHealth.cs",
-              "RelativeToolTip": "Tiny_Game_Project_1\\Player\\PlayerHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T14:37:22.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DrawMap.cs",
-              "DocumentMoniker": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Map\\DrawMap.cs",
-              "RelativeDocumentMoniker": "Tiny_Game_Project_1\\Map\\DrawMap.cs",
-              "ToolTip": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Map\\DrawMap.cs",
-              "RelativeToolTip": "Tiny_Game_Project_1\\Map\\DrawMap.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwB4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T01:56:28.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Program.cs",
               "RelativeDocumentMoniker": "Tiny_Game_Project_1\\Program.cs",
               "ToolTip": "C:\\Users\\adamc\\source\\repos\\Tiny_Game_Project_1\\Tiny_Game_Project_1\\Program.cs",
               "RelativeToolTip": "Tiny_Game_Project_1\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T01:24:41.4Z",
               "EditorCaption": ""
