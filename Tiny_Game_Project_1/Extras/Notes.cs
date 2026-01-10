@@ -8,12 +8,27 @@ namespace Tiny_Game_Project_1.Extras
 {
     class Notes
     {
-           //   Game loop doesn't function as multiple 'u' appear.
-           //   We need to find a way of deleting the 'u' that was rekt 
-           //   And replacing it at the start. 
-           //   perhaps rather than setting the u to "o" as i have been trying
-           //   and instantiating a new "u" perhaps we just teleport the existing one to the
-           //   back rank.
+        //      Game loop doesn't function as multiple 'u' appear. 
+        //      FIXED 10/01/26 - instead of removing the "u" and replacing with "o" we store the first map and clone it at beginning & reset.
+
+        //      Entering any other key causes crash, during play with wasd.
+        //      Same for the Y/N continue screen.
+        //      Implement outter loop. 
+
+
+
+        //To Do:
+        //      create logic for player                             -Done
+        //      create logic and simple ai for enemy - the 'z'      -Done
+        //      player to spawn in top start zone                   -Done
+        //      create start and end zones                          -Done
+        //      stretch:-               
+        //      add music                                           -Done (needs fixing)
+        //      add lives                                           -Done (needs fixing, doesn't decrement lives) 
+        //      would you like to try again Y/N.                    -Done (needs fixing, errors out if second time running through.)
+
+
+
 
     }
 }
