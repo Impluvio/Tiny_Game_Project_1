@@ -21,37 +21,43 @@ class program
         string[,] finalisedMap = EnemyPlayerPlacement.placePlayerOnMap(initialMap); //master - remains unchanged
 
         string[,] readyMap = (string[,])finalisedMap.Clone();                       //Copy of master. 
+        bool keepPlaying = true;
 
-        GameLoop.initiateLoop(readyMap);
-
-        Console.Clear();
-        Console.WriteLine("you Got rekt!");
-
-        if (PlayerHealth.playerHealth.Length > 0)
+        while (keepPlaying)
         {
-            Console.WriteLine("You have lives left... continue (y/n)?");
-            string input = Console.ReadLine();
-            
-            if (input != null && input == "y")                                      // Crude Collision detection
+
+            GameLoop.initiateLoop(readyMap);
+           
+
+            if (PlayerHealth.playerHealth.Length > 0)
             {
                 Console.Clear();
-                GameLoop.ToggleRunning();
-                readyMap = (string[,])finalisedMap.Clone();
-                GameLoop.initiateLoop(readyMap);
+                Console.WriteLine("you Got rekt!");
+                Console.WriteLine("You have lives left... continue (y/n)?");
+                string input = Console.ReadLine();
+
+                if (input != null && input == "y")                                      // Crude Collision detection
+                {
+                    Console.Clear();
+                    GameLoop.ToggleRunning();
+                    readyMap = (string[,])finalisedMap.Clone();
+                    GameLoop.initiateLoop(readyMap);
+                }
+                else if (input != null && input == "n")
+                {
+                    Console.Clear();
+                    Console.WriteLine("game over");
+                    keepPlaying = false;
+                }
             }
-            else if (input != null && input == "n")
+            else
             {
-                Console.Clear();
                 Console.WriteLine("game over");
+                keepPlaying = false;
             }
-        }
-        else
-        {
-            Console.WriteLine("game over");
-        }
             Console.ReadKey();
 
-
+        }
     }
 
    

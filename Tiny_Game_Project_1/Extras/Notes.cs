@@ -13,11 +13,14 @@ namespace Tiny_Game_Project_1.Extras
 
         //      Entering any other key causes crash, during play with wasd.
         //      Same for the Y/N continue screen.
-        //      Implement outter loop. 
+        //      Loop works but now it doesn't display the y/n text after you die without hitting enter.
+        //
+
 
 
 
         //To Do:
+        //      Implement outter loop                               -Done 
         //      create logic for player                             -Done
         //      create logic and simple ai for enemy - the 'z'      -Done
         //      player to spawn in top start zone                   -Done
