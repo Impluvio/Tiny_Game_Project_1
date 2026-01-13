@@ -9,7 +9,7 @@ namespace Tiny_Game_Project_1.Map
 {
     public class DrawMap
     {
-
+        public static string Message = "";
         public static void Draw(string[,] gameMap)
         {
             Console.SetCursorPosition(0, 0);
@@ -46,8 +46,9 @@ namespace Tiny_Game_Project_1.Map
                 }
                 Console.WriteLine();
             }
-                
+
             
+            Console.WriteLine($"Debug Output: {Message}");
 
 
 

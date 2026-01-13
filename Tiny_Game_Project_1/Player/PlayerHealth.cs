@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tiny_Game_Project_1.Map;
 
 namespace Tiny_Game_Project_1.Player
 {
@@ -16,7 +17,9 @@ namespace Tiny_Game_Project_1.Player
             
             if (hit)
             {
-                playerHealth.Substring(0, playerHealth.Length - 1);
+                DrawMap.Message = "hit occurred";
+                playerHealth = playerHealth.Substring(0, playerHealth.Length - 1);
+                return label + playerHealth;
                 
             }
 
