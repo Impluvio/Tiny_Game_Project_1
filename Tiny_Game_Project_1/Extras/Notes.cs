@@ -12,8 +12,8 @@ namespace Tiny_Game_Project_1.Extras
         //      FIXED 10/01/26 - instead of removing the "u" and replacing with "o" we store the first map and clone it at beginning & reset.
 
 
-        //
-        //      Loop works but now it doesn't display the y/n text after you die without hitting enter.
+        //      ADD level increment, and improve the ai for the enemy.
+        //      Add safe zone. 
         //      
 
 
@@ -31,7 +31,7 @@ namespace Tiny_Game_Project_1.Extras
         //      add music                                           -Done (needs fixing)
         //      add lives                                           -Done (needs fixing, doesn't decrement lives) 
         //      would you like to try again Y/N.                    -Done (needs fixing, errors out if second time running through.)
-
+        //      Loop works but now it doesn't display the y/n text after you die without hitting enter.
 
 
 
