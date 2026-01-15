@@ -90,8 +90,9 @@ namespace Tiny_Game_Project_1.Map
 
             }
 
+            
 
-            return gameAreaToProcess; // fix this later
+            return gameAreaToProcess; 
         }
 
          public void getCoordNeighbour(string[,] gameAreaToProcess, int coordX, int coordY)
