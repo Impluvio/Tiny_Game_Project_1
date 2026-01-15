@@ -17,7 +17,6 @@ namespace Tiny_Game_Project_1.Player
             
             if (hit)
             {
-                DrawMap.Message = "hit occurred";
                 playerHealth = playerHealth.Substring(0, playerHealth.Length - 1);
                 return label + playerHealth;
                 

@@ -22,12 +22,14 @@ class program
 
         string[,] readyMap = (string[,])finalisedMap.Clone();                       //Copy of master. 
         bool keepPlaying = true;
+        int loopCounter = 0;
+
 
         while (keepPlaying)
         {
 
             GameLoop.initiateLoop(readyMap);
-           
+
 
             if (PlayerHealth.playerHealth.Length > 0)
             {
@@ -60,6 +62,6 @@ class program
         }
     }
 
-   
+
 }
 

@@ -38,6 +38,8 @@ namespace Tiny_Game_Project_1.Map
                             Console.ForegroundColor = ConsoleColor.Yellow; break;
                         case "z" or "<" or "3":
                             Console.ForegroundColor = ConsoleColor.Red; break;
+                        case "S":
+                            Console.ForegroundColor = ConsoleColor.Green; break;
                         default:
                             Console.ForegroundColor = ConsoleColor.White; break;
                     }
