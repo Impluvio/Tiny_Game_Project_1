@@ -37,12 +37,18 @@ namespace Tiny_Game_Project_1.GameLogic
                 Console.WriteLine("player location: " + player);
                 var enemy = EntityFinder.Find(updatedMapPlayerEnemy, "z");
                 Console.WriteLine("enemy location: " + enemy);
+                var finish = EntityFinder.Find(updatedMapPlayerEnemy, "S");
 
-                if (player == enemy) 
+
+                if (player == enemy)
                 {
                     Console.Beep(250, 400);
                     running = false;
                     PlayerHealth.reportPlayerHealth(true);
+                }
+                if (player == finish)
+                {
+                    Console.WriteLine("you win");
                 }
                 else if (enemy == (-1, -1) || player == (-1, -1))
                 {
