@@ -27,7 +27,7 @@ namespace Tiny_Game_Project_1.GameLogic
 
             while (keepPlaying) //outter loop - if stopped Game Over
             {
-                GameLoop.mainLoop(ref sizeOfMap, ref finalisedMap, ref readyMap, ref keepPlaying);
+                    mainLoop(ref sizeOfMap, ref finalisedMap, ref readyMap, ref keepPlaying);
             }
 
         }
@@ -38,15 +38,16 @@ namespace Tiny_Game_Project_1.GameLogic
         {
             int currentlevel = mapSize;
 
-            GameLoop.centralLoop(readyMap);
+            centralLoop(readyMap);
 
             if (playProgression)
             {
+                Console.Clear();
                 Console.WriteLine("in play progression if statement");
                 mapSize = mapSize + 5;
                 finalisedMap = LevelManager.LevelCreator(mapSize);
                 readyMap = (string[,])finalisedMap.Clone();
-                GameLoop.centralLoop(readyMap);
+                centralLoop(readyMap);
                 playProgression = false;
             }
 
@@ -61,9 +62,9 @@ namespace Tiny_Game_Project_1.GameLogic
                 if (input != null && input == "y")                                      // Crude Collision detection
                 {
                     Console.Clear();
-                    GameLoop.ToggleRunning();
+                    ToggleRunning();
                     readyMap = (string[,])finalisedMap.Clone();
-                    GameLoop.centralLoop(readyMap);
+                    centralLoop(readyMap);
                 }
                 else if (input != null && input == "n")
                 {
@@ -87,8 +88,9 @@ namespace Tiny_Game_Project_1.GameLogic
 
         public static void centralLoop(string[,] mapToDraw) //this assesses and updates the core gameplay including movement, the map & win / loss conditions
         {
-            
+
             DrawMap.Draw(mapToDraw);
+            var finish = EntityFinder.Find(mapToDraw, "S");
 
             while (runningCentralLoop)
             {
@@ -106,7 +108,7 @@ namespace Tiny_Game_Project_1.GameLogic
                 Console.WriteLine("player location: " + player);
                 var enemy = EntityFinder.Find(updatedMapPlayerEnemy, "z");
                 Console.WriteLine("enemy location: " + enemy);
-                var finish = EntityFinder.Find(updatedMapPlayerEnemy, "S");
+                
 
                 if (player == enemy)
                 {

@@ -22,9 +22,6 @@ namespace Tiny_Game_Project_1.GameLogic
             string[,] penultimateMap = EnemyPlayerPlacement.placePlayerOnMap(initialMap); //master - remains unchanged
             string[,] finalMap = (string[,])penultimateMap.Clone();                       //Copy of master.
 
-           
-
-
             return finalMap;
         }
 

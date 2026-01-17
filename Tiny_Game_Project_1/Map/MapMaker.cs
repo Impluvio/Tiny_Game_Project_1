@@ -34,6 +34,10 @@ namespace Tiny_Game_Project_1.Map
                 gameArea[i, mapHeight - 1] = "X";
             }
 
+
+            string[,] intermediaryGameMap = runRandomWalkers(gameArea, mapWidth, mapHeight);
+            string[,] penultimateMap = runRandomWalkers(intermediaryGameMap, mapWidth, mapHeight);
+
             // the section below places the safe zone.
 
             int topRow = 2;
@@ -41,16 +45,12 @@ namespace Tiny_Game_Project_1.Map
             Random randomCoord = new Random();
             var coordForFinishZone = randomCoord.Next(1, mapWidth - 2);
 
-            gameArea[coordForFinishZone, topRow] = "S";  // this instantiates the "s" OR safety zone. (we need to populate the surroding tiles)
-
-
-            string[,] intermediaryGameMap = runRandomWalkers(gameArea, mapWidth, mapHeight);
-            string[,] penultimateMap = runRandomWalkers(intermediaryGameMap, mapWidth, mapHeight);
+            penultimateMap[coordForFinishZone, topRow] = "S";  // this instantiates the "s" OR safety zone. (we need to populate the surroding tiles)
 
 
             // get the two highest rows, and place a random 4x4 square on it.
 
-            
+
 
 
 

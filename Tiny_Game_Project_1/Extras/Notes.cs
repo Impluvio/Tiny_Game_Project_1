@@ -13,8 +13,10 @@ namespace Tiny_Game_Project_1.Extras
 
 
         //      ADD level increment, and improve the ai for the enemy.
-        //      Add safe zone.
-        //      Fix the order of logic in the gameLoop as we check for same location after movement - see script for more notes. 
+        //      Add safe zone. - Done 
+        //      Fix the order of logic in the gameLoop as we check for same location after movement - see script for more notes. - this is why it requires the 
+        //      extra press of the button to go from the play screen to the y/n screen
+        //      the victory condition takes health down. 
 
 
 
