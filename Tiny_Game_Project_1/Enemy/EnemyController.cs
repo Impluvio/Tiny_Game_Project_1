@@ -42,6 +42,12 @@ namespace Tiny_Game_Project_1.Enemy
                 return true;
             }
 
+            // add an if statement here to check to see if the enemy is trapped. 
+            // once checked we can backtrack the enemy in the other direction, and then check the surrounding tiles
+            // to a depth of 2/3 tiles so 8 then 21 tiles. 
+            // consider an a* search.
+
+
             return false;
 
         }
